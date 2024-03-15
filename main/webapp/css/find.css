@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the branch table */
+.branch-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+
+.branch-table th, .branch-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Style for blue button */
+.blue-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+     margin: 20px 10px;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}

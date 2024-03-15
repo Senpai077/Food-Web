@@ -1,0 +1,171 @@
+@charset "ISO-8859-1";
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the form wrapper */
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+/* Styling for the inner form container */
+.inner {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for form input fields */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the branch table */
+.branch-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.branch-table th, .branch-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Styling for the food order button */
+.food-order-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.food-order-button:hover {
+    background-color: #0056b3;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 10px;
+    }
+}
+   /* Styling the navigation bar */
+    .navbar {
+  background-color: rgba(52, 152, 253, 0.25); /* Set the background color */
+  color: white; /* Set the text color */
+  display: flex; /* Display items in a row */
+  justify-content: space-between; /* Space items evenly along the row */
+  align-items: center; /* Center items vertically */
+  padding: 0px 20px; /* Add padding for spacing */
+  height: 50px;
+}
+.navbar {
+  background-color: rgba(52, 152, 253, 0.25) /* Dark background color */
+}
+
+.navbar-brand {
+  color: #fff; /* White text color for the brand */
+}
+
+/* Styling the navigation links */
+.navbar-nav .nav-link {
+  color: #fff; /* White color for the links */
+}
+
+/* Styling the logout button */
+
+.navbar {
+  background-color:rgba(52, 152, 253, 0.25); /* Set the background color */
+  color: white; /* Set the text color */
+  display: flex; /* Display items in a row */
+  justify-content: space-between; /* Space items evenly along the row */
+  align-items: center; /* Center items vertically */
+  padding: 10px 20px; /* Add padding for spacing */
+  height: 45px;
+  
+}
+
+/* Style for buttons */
+.navbar button {
+  background-color: transparent; /* Transparent background */
+  border: none; /* No border */
+  cursor: pointer; /* Show pointer cursor on hover */
+  padding: 10px 10px; /* Add padding for spacing */
+  font-size: 14px; /* Set font size */
+  text-decoration: none; /* Remove default underline for links */
+  color: rgb(0, 0, 255); /* Text color */
+  height: 45px;
+  
+}
+
+/* Style for user profile */
+.user-profile {
+  font-weight: bold; /* Make the text bold */
+  margin-right: 10px; /* Add spacing to the right */
+}
+
+/* Add hover effect to buttons */
+
+
+/* Adjust button widths */
+.home-button,
+.logout-button {
+  width: 15%; /* Each button takes 50% width */
+  text-align: center; /* Center the button text */
+  color: white;
+  height: 45px;
+}
+
+/* Adjust user profile width */
+.user-profile {
+	
+  width: 60%; /* User profile takes 50% width */
+  text-align: right; /* Align user profile text to the right */
+  color: red;
+}
+.navbar  a {
+    text-decoration: bold; /* Remove default underline for links */
+    font-weight: bold;
+    background-color: transparent; /* Transparent background */
+  border: 2px solid white; /* No border */
+  border-radius: 10%;
+  cursor: pointer; /* Show pointer cursor on hover */
+  padding: 10px 10px; /* Add padding for spacing */
+  font-size: 14px; /* Set font size */
+  text-decoration: none; /* Remove default underline for links */
+  color: rgb(0, 0, 255); /* Text color */
+  height: 35px;
+  width: 7%;
+  margin: 10px 15px;
+    color: white; /* Text color */
+}
+.navbar  a:hover {
+    
+    color: rgb(0, 0, 255); /* Text color */
+    background-color: rgba(152, 152, 153, 0.25);
+}
